@@ -1,0 +1,92 @@
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.header {
+    background: #273B47;
+    min-width: 280px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.header-logo img {
+    display: block;
+    height: 30px;
+    padding: 15px 0;
+    width: 95px;
+}
+img {
+    border: 0;
+}
+.menu-nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    float: right;
+}
+.header .wrap {
+    max-width: none;
+    padding: 0 10px;
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.header-mobileMenu {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 24px;
+    padding: 13px 18px;
+    position: relative;
+}
+label {
+    cursor: default;
+}
+.btn-red{
+    background-color: #d3d3d3;
+    border: none;
+    border-bottom: 3px solid #808080;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 32px;
+    padding: 0 1em;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+header, main, menu, nav {
+    display: block;
+}
